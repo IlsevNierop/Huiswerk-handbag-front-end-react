@@ -5,7 +5,10 @@ import handbag1 from './assets/bag_1.png';
 import handbag2 from './assets/bag_2.png';
 import handbag3 from './assets/bag_3.png';
 import handbag4 from './assets/bag_4.png';
+import brandimage from './assets/brand.png';
+import designersimage from './assets/our_story.png';
 import Article from "./components/Article/Article";
+import Tile from "./components/Tile/Tile";
 
 
 function App() {
@@ -46,6 +49,18 @@ function App() {
                     price="€150,-"
                 />
             </main>
+
+            <footer>
+                <Tile title="The brand">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio dolore est laboriosam minus nesciunt nisi nulla pariatur sint unde!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio dolore est laboriosam minus nesciunt nisi nulla pariatur sint unde!</p>
+                </Tile>
+                <Tile image={brandimage} imagetag="Brand image"/>
+                <Tile image={designersimage} imagetag="Designers"/>
+                <Tile title="Our story">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur, dolores ducimus eos error eveniet facilis ipsum natus neque nesciunt obcaecati officiis, quam quasi reiciendis repellendus saepe sed, voluptate voluptatibus?</p>
+                </Tile>
+            </footer>
         </>
     );
 }
