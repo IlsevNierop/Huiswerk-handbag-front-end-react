@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Article({tag, image, subTitle, price }) {
+function Article({label, image, subTitle, price }) {
     return (
         <>
             <article>
-                <span>{tag}</span>
-                <img src={image} alt="Bag"/>
+                <span>{label}</span>
+                <img src={image} alt={subTitle}/>
                 <p>{subTitle}</p>
-                <h4>{price}</h4>
+                <h4>€{price},-</h4>
             </article>
 
         </>

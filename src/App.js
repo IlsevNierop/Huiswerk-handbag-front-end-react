@@ -25,28 +25,28 @@ function App() {
             </nav>
             <main>
                 <Article
-                    tag="Best Seller"
+                    label="Best Seller"
                     image={handbag1}
                     subTitle="The handy bag"
-                    price="€400,-"
+                    price="400"
                 />
                 <Article
-                    tag="Best Seller"
+                    label="Best Seller"
                     image={handbag2}
                     subTitle="The stylish bag"
-                    price="€250,-"
+                    price="250"
                 />
                 <Article
-                    tag="New Collection"
+                    label="New Collection"
                     image={handbag3}
                     subTitle="The simple bag"
-                    price="€300,-"
+                    price="300"
                 />
                 <Article
-                    tag="New Collection"
+                    label="New Collection"
                     image={handbag4}
                     subTitle="The trendy bag"
-                    price="€150,-"
+                    price="150"
                 />
             </main>
 
